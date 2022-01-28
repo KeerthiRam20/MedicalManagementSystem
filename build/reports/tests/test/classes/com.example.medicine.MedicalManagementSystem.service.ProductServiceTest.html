@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProductServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProductServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.medicine.MedicalManagementSystem.service.html">com.example.medicine.MedicalManagementSystem.service</a> &gt; ProductServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.105s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAddProduct()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllProducts()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateProduct()</td>
+<td class="success">0.093s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:56:40.822 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:56:40.838 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:56:40.858 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:56:40.873 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest], using SpringBootContextLoader
+17:56:40.873 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]: class path resource [com/example/medicine/MedicalManagementSystem/service/ProductServiceTest-context.xml] does not exist
+17:56:40.873 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]: class path resource [com/example/medicine/MedicalManagementSystem/service/ProductServiceTestContext.groovy] does not exist
+17:56:40.873 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:56:40.873 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]: ProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:56:40.938 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]
+17:56:41.006 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Spring Boot\MedicalManagementSystem\MedicalManagementSystem\build\classes\java\main\com\example\medicine\MedicalManagementSystem\MedicalManagementSystemApplication.class]
+17:56:41.006 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.medicine.MedicalManagementSystem.MedicalManagementSystemApplication for test class com.example.medicine.MedicalManagementSystem.service.ProductServiceTest
+17:56:41.086 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.medicine.MedicalManagementSystem.service.ProductServiceTest]: using defaults.
+17:56:41.086 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [com.ninjasquad.springmockk.MockkTestExecutionListener, com.ninjasquad.springmockk.ClearMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:56:41.328 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b8e246c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f387978, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7cb2651f, com.ninjasquad.springmockk.MockkTestExecutionListener@4441d567, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e1624c7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62b969c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@dcc6211, org.springframework.test.context.transaction.TransactionalTestExecutionListener@47ec7422, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48535004, org.springframework.test.context.event.EventPublishingTestExecutionListener@610df783, com.ninjasquad.springmockk.ClearMocksTestExecutionListener@f3fcd59, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b56f5f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@79d743e6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@776802b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64c4c01, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1aa99005, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@592238c5]
+17:56:41.328 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@30814f43 testClass = ProductServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1fde4f40 testClass = ProductServiceTest, locations = '{}', classes = '{class com.example.medicine.MedicalManagementSystem.MedicalManagementSystemApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[MockkContextCustomizer(definitions=[]), org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@363042d7, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@767e20cf, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@c5dc4a2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@340b9973, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@d441d0cc, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@51972dc7, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@58d75e99], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.6.4-SNAPSHOT)
+
+2022-01-28 17:56:41.607  INFO 10288 --- [    Test worker] c.e.m.M.service.ProductServiceTest       : Starting ProductServiceTest using Java 16 on LIN73001338 with PID 10288 (started by ks95 in C:\Spring Boot\MedicalManagementSystem\MedicalManagementSystem)
+2022-01-28 17:56:41.607  INFO 10288 --- [    Test worker] c.e.m.M.service.ProductServiceTest       : No active profile set, falling back to default profiles: default
+2022-01-28 17:56:42.488  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-28 17:56:42.488  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-01-28 17:56:42.507  INFO 10288 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.medicine.MedicalManagementSystem.repository.CartJpaRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-01-28 17:56:42.507  INFO 10288 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.medicine.MedicalManagementSystem.repository.OrderJpaRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-01-28 17:56:42.524  INFO 10288 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.medicine.MedicalManagementSystem.repository.ProductJpaRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-01-28 17:56:42.524  INFO 10288 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.medicine.MedicalManagementSystem.repository.UserJpaRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-01-28 17:56:42.524  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2022-01-28 17:56:42.524  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-28 17:56:42.524  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-28 17:56:42.572  INFO 10288 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2022-01-28 17:56:43.546  INFO 10288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-28 17:56:43.726  INFO 10288 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-28 17:56:43.793  INFO 10288 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-28 17:56:43.859  INFO 10288 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-28 17:56:43.891  INFO 10288 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-28 17:56:44.009  INFO 10288 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table if exists cart_details CASCADE 
+Hibernate: drop table if exists order_table CASCADE 
+Hibernate: drop table if exists product_table CASCADE 
+Hibernate: drop table if exists user_table CASCADE 
+Hibernate: create table cart_details (cart_id integer generated by default as identity, product_id integer not null, product_name varchar(255), quantity integer not null, total_amount double, user_id integer not null, primary key (cart_id))
+Hibernate: create table order_table (order_id integer generated by default as identity, delivery_address varchar(255) not null, list_of_products varchar(255), order_date varchar(255), order_status varchar(255), payment boolean, total_amount double, user_id integer not null, primary key (order_id))
+Hibernate: create table product_table (product_id integer not null, category varchar(255) not null, price double not null, product_name varchar(255) not null, quantity integer not null, primary key (product_id))
+Hibernate: create table user_table (user_id integer not null, address varchar(255) not null, first_name varchar(255) not null, last_name varchar(255) not null, mail_id varchar(255), mobile_no varchar(255) not null, password varchar(255) not null, primary key (user_id))
+2022-01-28 17:56:44.474  INFO 10288 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-28 17:56:44.490  INFO 10288 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-28 17:56:45.264  WARN 10288 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-28 17:56:46.210  INFO 10288 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-28 17:56:46.276  INFO 10288 --- [    Test worker] c.e.m.M.service.ProductServiceTest       : Started ProductServiceTest in 4.915 seconds (JVM running for 6.217)
+2022-01-28 17:56:46.510  INFO 10288 --- [    Test worker] c.e.m.M.Services.ProductServiceImpl      : Update product method called
+2022-01-28 17:56:46.596  INFO 10288 --- [    Test worker] c.e.m.M.Services.ProductServiceImpl      : Get all products method called
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.2</a> at 28-Jan-2022, 5:56:46 pm</p>
+</div>
+</div>
+</body>
+</html>
